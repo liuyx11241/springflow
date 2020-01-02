@@ -1,0 +1,18 @@
+GET http://localhost:8080/test
+Accept: */*
+Cache-Control: no-cache
+X-MOCK-COUNTRY: de
+
+<> 2020-01-02T024011.200.txt
+
+###
+
+GET http://localhost:8080/test
+Accept: */*
+Cache-Control: no-cache
+X-MOCK-COUNTRY: it
+
+<> 2020-01-02T024008.200.txt
+
+###
+
